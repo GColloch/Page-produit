@@ -1,0 +1,19 @@
+.lmj-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+.button-réinit {
+	margin-left: 10px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5%;
+  color: white;
+  background-color: #333d43;
+}
+.button-réinit:hover {
+	background-color: #4d5860;
+}
+.lmj-categories-select {
+	margin-right: 15px;
+}

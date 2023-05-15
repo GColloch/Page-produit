@@ -1,0 +1,81 @@
+.lmj-figurine-item-cover {
+  height: 270px;
+  width: 270px;
+  border-radius: 20px;
+  object-fit: cover;
+  background: linear-gradient(135deg, #dc799e, #f5ccbd);
+}
+
+.lmj-figurine-item {
+  margin: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.button-add {
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  color: white;
+  background-color: #333d43;
+}
+
+.button-add:hover {
+  background-color: #dc799e;
+}
+
+.lmj-figurine-item-price {
+  position: absolute;
+  border-radius: 20px 20px 20px 0;
+  background-color: #ff6b35;
+  color: white;
+  padding: 15px;
+  right: 0;
+  top: 0;
+  font-weight: 500;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .lmj-figurine-item-cover {
+    height: 200px;
+    width: 200px;
+  }
+
+  .button-add {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lmj-figurine-item-cover {
+    height: 100px;
+    width: 100px;
+  }
+
+  .button-add {
+    margin-left: 30px;
+		font-size: 10px;
+		width: 70px;
+		height: 30px;
+  }
+
+  .lmj-figurine-item {
+    margin: 15px;
+  }
+
+  .lmj-figurine-item-price {
+    font-size: 9px;
+    padding: 5px;
+  }
+}
